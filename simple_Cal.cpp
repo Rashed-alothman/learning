@@ -3,7 +3,7 @@
 using namespace std;
 
 int main (){
-cout<<"Do you want to do cal where: "<<endl;
+cout<<"Do you want to do cal here?: "<<endl;
 string UserResponse;
 cin >>UserResponse;
 if (UserResponse == "Yes" || UserResponse == "y"){
@@ -18,7 +18,9 @@ if (UserResponse == "Yes" || UserResponse == "y"){
     cin>>secnednumber;
     int output=firstnumber+secnednumber;
     cout<<"the Output for your cal:"<<output<<endl;
-
+  }else if (UserResponse == "no"||UserResponse =="The fuck no") {
+  cout<<"So What do you fucking want where are you fr ?"<<endl;
+  return 0;
   }
 }
 }
