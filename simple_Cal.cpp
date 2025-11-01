@@ -18,9 +18,43 @@ if (UserResponse == "Yes" || UserResponse == "y"){
     cin>>secnednumber;
     int output=firstnumber+secnednumber;
     cout<<"the Output for your cal:"<<output<<endl;
-  }else if (UserResponse == "no"||UserResponse =="The fuck no") {
-  cout<<"So What do you fucking want where are you fr ?"<<endl;
-  return 0;
-  }
+  }else if (Userinputforcal == "Muliply" || Userinputforcal == "*"||Userinputforcal =="muliply") {
+
+    cout <<"Please Share the numbers you want to Muliply"<<endl;
+    int firstnumber;
+    cin >>firstnumber;
+    int secnednumber;
+    cin>>secnednumber;
+    int output=firstnumber*secnednumber;
+    cout<<"the Output for your cal:"<<output<<endl;
+
+  }else if (Userinputforcal == "subtract" || Userinputforcal == "-"||Userinputforcal =="Subtract") {
+
+    cout <<"Please Share the numbers you want to subtract"<<endl;
+    int firstnumber;
+    cin >>firstnumber;
+    int secnednumber;
+    cin>>secnednumber;
+    int output=firstnumber-secnednumber;
+    cout<<"the Output for your cal:"<<output<<endl;
+}else if (Userinputforcal == "Division" || Userinputforcal == "/"||Userinputforcal =="division") {
+
+    cout <<"Please Share the numbers you want to Muliply"<<endl;
+    int firstnumber;
+    cin >>firstnumber;
+    int secnednumber;
+    cin>>secnednumber;
+    int output=firstnumber/secnednumber;
+    cout<<"the Output for your cal:"<<output<<endl;
+}else if (Userinputforcal == "remining" || Userinputforcal == "%"||Userinputforcal =="Remining") {
+
+    cout <<"Please Share the numbers you want to Muliply"<<endl;
+    int firstnumber;
+    cin >>firstnumber;
+    int secnednumber;
+    cin>>secnednumber;
+    int output=firstnumber%secnednumber;
+    cout<<"the Output for your cal:"<<output<<endl;
+}
 }
 }
